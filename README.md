@@ -52,6 +52,18 @@ github "henryforce/KRActivityIndicatorView" == 1.0.4
 
 Run `carthage` to build the framework and drag the built `KRActivityIndicatorView.framework` into your Xcode project.
 
+## Swift Package Manager
+
+To install the "KRActivityIndicatorView" framework using the Swift Package Manager, follow these steps:
+
+1. Open your project in Xcode.
+2. Click on the "File" menu and select "Swift Packages > Add Package Dependency..."
+3. In the search bar, enter the URL of the repo
+4. Make sure that the "Branch" field is set to "master".
+5. Click "Next" and then "Finish" to complete the installation process.
+
+Once the installation is complete, you should be able to import "KRActivityIndicatorView" in your Swift code using the `import` statement.
+
 ## Manual
 
 Copy `KRActivityIndicatorView` folder to your project. That's it.
